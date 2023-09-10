@@ -1,12 +1,11 @@
 package main
 
 import (
-	"flag"
-	"hotel_resrv/api"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
 )
+	"github.com/neogan74y/hot_res/api"
 
 func main() {
 	listenAddr := flag.String("listenAddr", ":5001", "The listen address of the API server")
